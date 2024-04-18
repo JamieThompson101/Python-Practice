@@ -1,5 +1,9 @@
 name = input("What is your name?")
 
+#strip is a string method used to remove white space
+
+name = name.strip()
+
 #most basic variable and function program by asking the user for their name
 
 #input only takes strings
@@ -20,3 +24,7 @@ print(name)
 
 
 print("hello, \"friend\"")
+
+#format string
+
+print(f"hello, {name}")
