@@ -1,6 +1,6 @@
 name = input("What is your name?")
 
-#strip is a string method used to remove white space
+#strip is a string method used to remove white space// lstrip and rstrip remove from just the right of the left respectively
 
 name = name.strip()
 
@@ -50,3 +50,9 @@ name = input("What's your name? ").strip().title()
 #and then print it to the terminal
 
 print(f"hello, {name}")
+
+#split user's name into first name and last name
+
+first, last = name.split(" ")
+
+print(f"hello, {first}")
