@@ -4,6 +4,20 @@ name = input("What is your name?")
 
 name = name.strip()
 
+#.capitalize only capitalizes the first letter in the string
+
+name = name.capitalize()
+
+#.title is a method utilized to captilize user's input// a method is a function that is built into a data type
+
+name = name.title()
+
+name = name.strip().title()
+
+#get the users input, capitalize everything, and strip away any white space
+
+#you can string multiple methods together 
+
 #most basic variable and function program by asking the user for their name
 
 #input only takes strings
@@ -26,5 +40,13 @@ print(name)
 print("hello, \"friend\"")
 
 #format string
+
+print(f"hello, {name}")
+
+#best way to write this
+
+name = input("What's your name? ").strip().title()
+
+#and then print it to the terminal
 
 print(f"hello, {name}")
