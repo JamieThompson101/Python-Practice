@@ -18,4 +18,4 @@ b = float(input("What is b? "))
 
 c = round(a + b)
 
-print(f"{c}")
+print(f"{c:,}")
