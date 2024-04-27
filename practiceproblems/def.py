@@ -12,4 +12,6 @@ def hello(to="world"):
 hello()
 name = input("What's your name? ")
 #call the function and give it the user's input variable as an argument
+#scope refers to variables only existing in the context in which you define them
+#return is a key word used to literally return a value to you as the programmer
 hello(name)
