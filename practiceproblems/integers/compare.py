@@ -16,3 +16,14 @@ else:
     #print("x is less than y")
 #if x == y:
     #print("x is equal to y")
+#adding the or
+#if x < y or x > y:
+    #print("x is not equal to y")
+#else:
+    #print("x is equal to y")
+#the best way to program this 
+#!= stands for "does not equal"; the exclamation point changes the assignment operator
+if x != y:
+    print("x is not equal to y")
+else:
+    print("x is equal to y")
